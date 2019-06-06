@@ -258,33 +258,6 @@ class GridSplitter:
         return child_grid_A, child_grid_B
 
     def __check_splitting_consistency__(self,parent_grid,list_of_child_grids,optimal_locations, number_of_parts):
-        '''
-        if number_of_parts != 2:
-            if len(parent_grid.line_list) % number_of_parts == 0:
-                if len(optimal_locations) == number_of_parts-1:
-                    print(optimal_locations)
-                    self.grid.optimal_locations_for_split = optimal_locations
-                    flg = True
-                else:
-                    self.grid.optimal_locations_for_split = []
-                    flg = False
-            else:
-                if len(optimal_locations) == number_of_parts:
-                    print(optimal_locations)
-                    self.grid.optimal_locations_for_split = optimal_locations
-                    flg = True
-                else:
-                    self.grid.optimal_locations_for_split = []
-                    flg = False
-        else:
-            if len(optimal_locations) == number_of_parts - 1:
-                print(optimal_locations)
-                self.grid.optimal_locations_for_split = optimal_locations
-                flg = True
-            else:
-                self.grid.optimal_locations_for_split = []
-                flg = False
-        '''
 
         all_lines = []
         for grid in list_of_child_grids:
