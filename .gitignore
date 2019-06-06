@@ -1,0 +1,7 @@
+/src/grid_topology/
+/src/scenario_data/
+.idea
+__pycache__
+/src/*.pkl
+/src/*.pdf
+/src/*.txt
